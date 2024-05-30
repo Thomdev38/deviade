@@ -133,7 +133,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2181,9 +2181,9 @@ input, select, textarea {
 		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
-
+	/*margin ct 4em*/
 	header.major {
-		margin: 0 0 4em 0;
+		margin: 0 0 1em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -2511,6 +2511,14 @@ input, select, textarea {
 				}
 
 /* Image */
+.image.logo {
+	display: block;
+			margin: 0 0 2em 0;
+			width: 180px;
+			height: 180px;
+			object-fit: cover;
+			
+}
 
 	.image {
 		border-radius: 4px;
@@ -2556,6 +2564,7 @@ input, select, textarea {
 			.image.left img, .image.right img {
 				width: 100%;
 			}
+	
 
 		.image.fit {
 			display: block;
@@ -3058,7 +3067,8 @@ input, select, textarea {
 		.spotlight:nth-last-of-type(20) {
 			z-index: 20;
 		}
-
+		/* l'overlay etait en height a 100%
+		supprimé car finalement asse chiant sur pc */
 		.spotlight:before {
 			background-image: url("images/overlay.png");
 			content: '';
@@ -3124,6 +3134,8 @@ input, select, textarea {
 			bottom: 0;
 		}
 
+		/* sur page index c le container avec texte a droite */
+
 		.spotlight.left .content, .spotlight.right .content {
 			height: 101%;
 			padding: 6em 3em;
@@ -3158,10 +3170,10 @@ input, select, textarea {
 		}
 
 		.spotlight.inactive .goto-next {
-			-moz-transform: translate(0,1.5em);
-			-webkit-transform: translate(0,1.5em);
-			-ms-transform: translate(0,1.5em);
-			transform: translate(0,1.5em);
+			-moz-transform: translate(0,1em);
+			-webkit-transform: translate(0,1em);
+			-ms-transform: translate(0,1em);
+			transform: translate(0,5em);
 			opacity: 0;
 		}
 
@@ -3535,7 +3547,7 @@ input, select, textarea {
 
 	#footer {
 		background: #272833;
-		padding: 6em 0;
+		padding: 0.4em 0;
 		text-align: center;
 	}
 
@@ -3564,7 +3576,7 @@ input, select, textarea {
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
-			line-height: 1em;
+			line-height: 0.5em;
 			margin: 2em 0 0 0;
 			padding: 0;
 			text-align: center;
