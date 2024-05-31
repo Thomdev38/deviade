@@ -2517,8 +2517,22 @@ input, select, textarea {
 			width: 180px;
 			height: 180px;
 			object-fit: cover;
+			margin: auto;
 			
 }
+.containerimage {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
 
 	.image {
 		border-radius: 4px;
@@ -3688,7 +3702,7 @@ input, select, textarea {
 				}
 
 				.spotlight .content {
-					background-color: #bae7bc8c;
+					background-color: #1c1d26;
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
