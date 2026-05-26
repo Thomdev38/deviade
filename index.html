@@ -1,213 +1,428 @@
-<!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Deviade</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="google-site-verification" content="6OwVALlpNFFPSdz69vD9bDGOkdZYVWGumSeTV4k0fsE" />
-		<meta name="description" content="Application mobile pour infirmier anesthésiste / IADE / CNRA, nurse anestesist, mobile app" />
-		<meta name="robots" content="index, follow">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- Balises Open Graph pour le partage sur les réseaux sociaux -->
-		<meta property="og:title" content="Deviade - Applications mobiles pour étudiants en santé">
-		<meta property="og:description" content="Améliorez votre apprentissage avec nos applications mobiles dédiées aux étudiants en santé!">
-		<meta property="og:image" content="https://www.deviade.fr/images/logo.png">
-		<meta property="og:url" content="https://www.deviade.fr">
-		<meta property="og:type" content="website">
-	
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="https://www.deviade.fr/favicon.jpg">
-	
-		<!-- Balise Canonical pour éviter le contenu dupliqué -->
-		<link rel="canonical" href="https://www.deviade.fr">
-	
-		<!-- Balise Schema.org pour le référencement avancé -->
-		<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Organization",
-			"name": "Deviade",
-			"url": "https://www.deviade.fr",
-			"logo": "https://www.deviade.fr/images/favicon.jpg",
-			"description": "Applications mobiles pour étudiants infirmier anesthésiste",
-			"sameAs": [
-				"https://www.facebook.com/AppDeviade",
-				"https://www.youtube.com/@Deviade_thomas",
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Deviade — Applications mobiles pour la santé</title>
+	<meta name="google-site-verification" content="6OwVALlpNFFPSdz69vD9bDGOkdZYVWGumSeTV4k0fsE" />
+	<meta name="description" content="Deviade — Applications mobiles pour étudiants et professionnels de santé. Carnet IADE, Salaire FPH, Pedianesth, Cardjo." />
+	<meta name="robots" content="index, follow">
 
-			]
-		}
-		</script>
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload landing">
-		<div id="page-wrapper">
+	<!-- Open Graph -->
+	<meta property="og:title" content="Deviade — Applications mobiles pour la santé">
+	<meta property="og:description" content="Des outils mobiles pensés par et pour les soignants. Apprenez, calculez, jouez.">
+	<meta property="og:image" content="https://www.deviade.fr/images/logo.png">
+	<meta property="og:url" content="https://www.deviade.fr">
+	<meta property="og:type" content="website">
 
-			<!-- Header -->
-				<header id="header">
-					
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Accueil</a></li>
-							<li><a href="app.html">Applis mobiles</a></li>
-							
-						</ul>
-					</nav>
-				</header>
+	<link rel="icon" type="image/png" href="https://www.deviade.fr/favicon.jpg">
+	<link rel="canonical" href="https://www.deviade.fr">
 
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2>Deviade</h2>
-							<h1>Infirmier anesthésiste 2.0</h1>
-							<p>Créateur de contenu digital à destination des professionnels de la santé</p>
-						</header>
-						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/modern.css" />
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Deviade",
+		"url": "https://www.deviade.fr",
+		"logo": "https://www.deviade.fr/images/favicon.jpg",
+		"description": "Applications mobiles pour étudiants et professionnels de santé",
+		"sameAs": [
+			"https://www.facebook.com/AppDeviade",
+			"https://www.youtube.com/@Deviade_thomas"
+		]
+	}
+	</script>
+</head>
+<body>
+
+	<!-- Animated background -->
+	<div class="bg-mesh"><div class="blob-3"></div></div>
+	<div class="bg-grid"></div>
+
+	<!-- Navigation -->
+	<nav class="nav">
+		<a class="nav-brand" href="index.html">
+			<span class="nav-brand-dot"></span>
+			<span>Deviade</span>
+		</a>
+		<ul class="nav-links">
+			<li><a class="active" href="index.html">Accueil</a></li>
+			<li><a href="app.html">Applications</a></li>
+			<li><a href="#about">À propos</a></li>
+			<li><a href="#vision">Vision</a></li>
+		</ul>
+		<a class="nav-cta" href="app.html" data-magnetic>
+			Découvrir
+			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+		</a>
+		<button class="nav-burger" aria-label="Menu">
+			<span></span><span></span><span></span>
+		</button>
+	</nav>
+
+	<!-- HERO -->
+	<section class="hero">
+		<div class="container">
+			<div class="hero-content">
+				<div class="hero-text reveal">
+					<span class="eyebrow">Santé 2.0 · Made in France</span>
+					<h1 class="hero-title h-display">
+						Du papier à la <span class="gradient-text">poche</span>.
+						<br>L'anesthésie <span class="text-shimmer">simplifiée</span>.
+					</h1>
+					<p class="hero-subtitle">
+						Je m'appelle Thomas, infirmier anesthésiste devenu développeur. Je conçois des
+						applications mobiles pour les étudiants et professionnels de santé — pour
+						apprendre vite, calculer juste, et avoir l'essentiel toujours sur soi.
+					</p>
+					<div class="hero-buttons">
+						<a class="btn btn-primary" href="app.html" data-magnetic>
+							Voir les applications
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+						</a>
+						<a class="btn btn-ghost" href="#about">
+							Mon histoire
+						</a>
 					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="col-4 col-12-medium">
-									<header>
-										<h2>
-											A propos de moi</h2>
-										
-									</header>
-								</div>
-								<div class="col-4 col-12-medium">
-									<h1>D'infirmier anesthésiste à développeur d'application mobile amateur</h1>
-									<p>Infirmier anesthésiste de profession je me suis dirigé vers le développement d'application mobile suite à un défi qui était de convertir un outil papier de plus de 100 pages en une version numérique que l'on peut avoir dans la poche.
-										Cet outil utilisé par des étudiants en santé est donc devenu après plus de 3 mois de travail une application mobile.
-										Elle offre aujourd'hui la possibilité aux étudiants et professionnels d'avoir cet outil sur leur téléphone</p>
-										<br>							
-										<p>							
-											Vous pouvez me retrouver sur les deux stores en cliquant sur les logos ci dessous.
-											<ul class="icons">
-												<li><a href="https://apps.apple.com/fr/developer/thomas-templier/id1697210339" class="icon brands alt fa-apple" style="font-size:24px"><span class="label">AppStore</span></a></li>
-												<li><a href="https://play.google.com/store/apps/dev?id=7050706482462377953&hl=fr_CA&gl=US" class="icon brands alt fa-android" style="font-size:24px"><span class="label">PlayStore</span></a></li>
-											</ul>
-										</p>
-										
-								</div>
-							</div>
+					<div class="hero-stats">
+						<div class="hero-stat">
+							<span class="num"><span data-count="4">0</span>+</span>
+							<span class="lbl">Applications publiées</span>
+						</div>
+						<div class="hero-stat">
+							<span class="num"><span data-count="2">0</span></span>
+							<span class="lbl">Stores · iOS &amp; Android</span>
+						</div>
+						<div class="hero-stat">
+							<span class="num"><span data-count="100" data-suffix="%">0</span></span>
+							<span class="lbl">Pensé par un soignant</span>
 						</div>
 					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</section>
+				</div>
 
-			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/indeximg.avif" alt="" /></span>
-					<div class="content">
-						<header>
-							<h1>Du papier à l'application mobile.</h1>
-							<h1>La santé 2.0</h1>
-							<p></p>
-						</header>
-						<p>N'ayant aucune connaissance en développement, hormis des brides de HTML et CSS j'ai suis parti de zéro pour créer une application mobile.</p>
-						<p>J'ai vite découvert le framework Flutter sur lequel j'ai vite accroché pour deux raisons:</p>
-						<p>- La première et plus importante c'etait de pouvoir développer avec un code pour les deux plateformes que sont l'Apple Store et le Playstore, il était hors de question de devoir apprendre deux langages de programmation pour sortir une application en partant de zéro.</p>
-						<p>- La deuxième c'est que bien que n'ayant jamais fait de développement, Flutter est un langage plutôt facile à apprendre et à mettre en oeuvre.</p>
+				<!-- Floating phones -->
+				<div class="hero-visual reveal reveal-delay-2">
+					<div class="phone-glow"></div>
+					<div class="phone phone-2">
+						<div class="phone-screen">
+							<img src="images/calculsalaire.png" alt="Salaire FPH" loading="lazy" />
+						</div>
 					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- Three 
-				<section id="three" class="spotlight style3 left">
-
-					<div class="content">
-						<header>
-							<h2>Et pour la suite ?</h2>
-							<p></p>
-						</header>
-						<p>Cela fait maintenant quasiment un an que mon application est sortit sur les deux stores. J'ai continué a me documenter et à regarder des tutos afin de continuer a progresser et à proposer une application plus propre visuellement.</p>
-						<p>Une deuxieme application est sortit, et d'autres sont en projet toujours en rapport avec mon métier d'infirmier anesthésiste, car étant sur IOS des applications spécifique à mon travail sont disponibles sur Android mais pas sur IOS donc le but est de pouvoir proposer ces applications sur Iphone</p>
-						
+					<div class="phone phone-3">
+						<div class="phone-screen">
+							<img src="images/pedianesth.png" alt="Pedianesth" loading="lazy" />
+						</div>
 					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>-->
-
-			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<h2>Et pour la suite ?</h2>
-						</header>
-						<footer class="major">
-						<p>Cela fait maintenant quasiment deux ans que mon application est sortie sur les deux stores. J'ai continué a me documenter et à regarder des tutos afin de continuer a progresser et à proposer une application plus propre visuellement.</p>
-						<p>Une troisième application vient de sortir, et d'autres sont en projet toujours en rapport avec mon métier d'infirmier anesthésiste, car étant sur IOS des applications spécifiques à mon travail sont disponibles sur Android mais pas sur IOS donc le but est de pouvoir proposer ces applications sur Iphone</p>
-						<p></p>
-							
-						</footer>
+					<div class="phone phone-1">
+						<div class="phone-screen">
+							<img src="images/carnetiade.png" alt="Carnet IADE" loading="lazy" />
+						</div>
 					</div>
-				</section> 
-
-
-				<section id="four" class="wrapper style1 special fade-up">
-					<div class="container">
-						
-						<h1>Santé Intelligence Artificielle, informatique, application mobile </h1>
-						<p>L’informatique a déjà profondément transformé le monde de la santé en améliorant la gestion des dossiers médicaux, la précision des diagnostics et l’efficacité des traitements. </p>
-						<p>Vous pouvez aujourd'hui téléconsulté un médecin depuis votre domicile, vous pouvez prendre rendez vous depuis votre smartphone en 3 clics.</p>
-						<p>En tant que professionel nous avons accès a votre dossier médical complet en quelques clics, faisant gagner un temps précieux</p>
-						<p>Autrefois mal vu au travail les smartphones sont aujourd'hui considéré comme des outils dans notre pratique quotidienne</p>
-						<p>La santé 2.0 ne fait que commencer, avec l'essor de l'intelligence artificielle beaucoup de chose vont probablement encore changer pour le bien être des patients</p>
-												
-						
-					</div>
-				</section> 
-
-			<!-- Five -->
-				<!--<section id="five" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2>Suivez nous</h2>
-							<p></p>
-						</header>
-						<form method="post" action="#" class="cta">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Votre adresse email" /></div>
-								<div class="col-4 col-12-xsmall"><input type="submit" value="Tenez-vous informez" class="fit primary" /></div>
-							</div>
-						</form>
-					</div>
-				</section>-->
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://github.com/Thomdev38" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:thomas.deviade@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="https://apps.apple.com/fr/developer/thomas-templier/id1697210339" class="icon brands alt fa-apple"><span class="label">AppStore</span></a></li>
-						<li><a href="https://play.google.com/store/apps/dev?id=7050706482462377953&hl=fr_CA&gl=US" class="icon brands alt fa-android"><span class="label">PlayStore</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Deviade.2024</li>
-					</ul>
-				</footer>
-
+				</div>
+			</div>
 		</div>
+	</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Marquee -->
+	<div class="marquee" aria-hidden="true">
+		<div class="marquee-track">
+			<span class="marquee-item">Flutter <span class="dot"></span></span>
+			<span class="marquee-item">iOS <span class="dot"></span></span>
+			<span class="marquee-item">Android <span class="dot"></span></span>
+			<span class="marquee-item">Anesthésie <span class="dot"></span></span>
+			<span class="marquee-item">Pédiatrie <span class="dot"></span></span>
+			<span class="marquee-item">FPH <span class="dot"></span></span>
+			<span class="marquee-item">Pharmacologie <span class="dot"></span></span>
+			<span class="marquee-item">SFAR <span class="dot"></span></span>
+			<span class="marquee-item">Mobile-first <span class="dot"></span></span>
+			<!-- duplicate for seamless loop -->
+			<span class="marquee-item">Flutter <span class="dot"></span></span>
+			<span class="marquee-item">iOS <span class="dot"></span></span>
+			<span class="marquee-item">Android <span class="dot"></span></span>
+			<span class="marquee-item">Anesthésie <span class="dot"></span></span>
+			<span class="marquee-item">Pédiatrie <span class="dot"></span></span>
+			<span class="marquee-item">FPH <span class="dot"></span></span>
+			<span class="marquee-item">Pharmacologie <span class="dot"></span></span>
+			<span class="marquee-item">SFAR <span class="dot"></span></span>
+			<span class="marquee-item">Mobile-first <span class="dot"></span></span>
+		</div>
+	</div>
 
-	</body>
+	<!-- ABOUT -->
+	<section class="section" id="about">
+		<div class="container">
+			<div class="about-grid">
+				<div class="about-text reveal">
+					<span class="eyebrow">À propos</span>
+					<h2 class="h-section">
+						D'infirmier anesthésiste à
+						<span class="gradient-text">développeur mobile</span>.
+					</h2>
+					<p>
+						Tout a commencé par un défi : convertir un <strong>outil papier de plus de 100 pages</strong>
+						en une application mobile que l'on garde dans la poche. Trois mois plus tard,
+						sans connaissance préalable en développement, ma première application était publiée
+						sur les stores.
+					</p>
+					<p>
+						Aujourd'hui, mes applications accompagnent étudiants et professionnels de santé
+						au quotidien — fiches de révision, calculs de doses, simulations, suivi de carrière.
+						Toujours <strong>conçues par un soignant, pour des soignants</strong>.
+					</p>
+					<div class="tags-row">
+						<span class="tag">Flutter</span>
+						<span class="tag">iOS</span>
+						<span class="tag">Android</span>
+						<span class="tag">UX santé</span>
+						<span class="tag">Auto-formé</span>
+					</div>
+				</div>
+
+				<div class="about-visual reveal reveal-delay-2">
+					<div class="about-card">
+						<div>
+							<span class="about-card-tag">My journey</span>
+							<h3 class="about-card-title">3 mois,<br>0 prérequis,<br>1 app sur 2 stores.</h3>
+							<p class="about-card-text">
+								Quelques notions de HTML/CSS, une bonne dose de motivation et la
+								découverte de Flutter — un seul code pour iOS et Android. Le reste
+								est une histoire de tutos, de café et de nuits courtes.
+							</p>
+						</div>
+						<div class="about-card-emoji">💊</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- APPS PREVIEW -->
+	<section class="section" id="apps-preview" style="padding-top: 40px;">
+		<div class="container">
+			<div class="section-head reveal">
+				<span class="eyebrow">Les applications</span>
+				<h2 class="h-section">Des outils <span class="gradient-text">pensés terrain</span>.</h2>
+				<p>Quatre applications disponibles sur les stores, du mémo de garde au jeu de cartes addictif.</p>
+			</div>
+
+			<div class="apps-grid">
+				<a class="app-card reveal" data-accent="violet" href="carnetiadeapp.html">
+					<div class="app-card-head">
+						<div class="app-card-logo"><img src="images/ciade.png" alt="Carnet IADE logo" /></div>
+						<div class="app-card-title-wrap">
+							<h3>Carnet IADE</h3>
+							<span class="app-card-badge">Best seller</span>
+						</div>
+					</div>
+					<p class="app-card-desc">
+						Fiches de révision et aide-mémoire pour étudiants infirmiers anesthésistes et IADE.
+					</p>
+					<ul class="app-card-features">
+						<li>Fiches chirurgie &amp; pathologie</li>
+						<li>Pharmacologie complète</li>
+						<li>Fiches réflexe SFAR</li>
+					</ul>
+					<div class="app-card-actions">
+						<span class="app-card-link">Découvrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+						<div class="app-card-meta">
+							<span class="platform" title="iOS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg></span>
+							<span class="platform" title="Android"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18a.4.4 0 0 0-.69-.4l-1.86 3.22a11.36 11.36 0 0 0-9.78 0L5.25 5.9a.4.4 0 1 0-.69.4L6.4 9.48A10.81 10.81 0 0 0 1 18h22a10.81 10.81 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 1.25-1.25A1.25 1.25 0 0 1 7 15.25zm10 0a1.25 1.25 0 1 1 1.25-1.25A1.25 1.25 0 0 1 17 15.25z"/></svg></span>
+						</div>
+					</div>
+				</a>
+
+				<a class="app-card reveal reveal-delay-1" data-accent="cyan" href="app.html">
+					<div class="app-card-head">
+						<div class="app-card-logo"><img src="images/180.png" alt="Salaire FPH logo" /></div>
+						<div class="app-card-title-wrap">
+							<h3>Salaire FPH</h3>
+							<span class="app-card-badge">Mis à jour</span>
+						</div>
+					</div>
+					<p class="app-card-desc">
+						Calculez votre salaire et suivez l'évolution de votre carrière dans la
+						fonction publique hospitalière.
+					</p>
+					<ul class="app-card-features">
+						<li>Grilles indiciaires à jour</li>
+						<li>Calculette salaire</li>
+						<li>Actualité FPH</li>
+					</ul>
+					<div class="app-card-actions">
+						<span class="app-card-link">Découvrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+						<div class="app-card-meta">
+							<span class="platform" title="iOS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg></span>
+							<span class="platform" title="Android"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18a.4.4 0 0 0-.69-.4l-1.86 3.22a11.36 11.36 0 0 0-9.78 0L5.25 5.9a.4.4 0 1 0-.69.4L6.4 9.48A10.81 10.81 0 0 0 1 18h22a10.81 10.81 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 1.25-1.25A1.25 1.25 0 0 1 7 15.25zm10 0a1.25 1.25 0 1 1 1.25-1.25A1.25 1.25 0 0 1 17 15.25z"/></svg></span>
+						</div>
+					</div>
+				</a>
+
+				<a class="app-card reveal reveal-delay-2" data-accent="pink" href="pediaapp.html">
+					<div class="app-card-head">
+						<div class="app-card-logo"><img src="images/ours.jpg" alt="Pedianesth logo" /></div>
+						<div class="app-card-title-wrap">
+							<h3>Pedianesth</h3>
+							<span class="app-card-badge">Nouveauté</span>
+						</div>
+					</div>
+					<p class="app-card-desc">
+						Calcul de posologies pédiatriques et préparation du site d'anesthésie en
+						fonction de l'âge et du poids.
+					</p>
+					<ul class="app-card-features">
+						<li>Calculs auto par poids/âge</li>
+						<li>Fiches SFAR pédiatrie</li>
+						<li>Interface ultra-rapide</li>
+					</ul>
+					<div class="app-card-actions">
+						<span class="app-card-link">Découvrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+						<div class="app-card-meta">
+							<span class="platform" title="iOS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg></span>
+							<span class="platform" title="Android"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18a.4.4 0 0 0-.69-.4l-1.86 3.22a11.36 11.36 0 0 0-9.78 0L5.25 5.9a.4.4 0 1 0-.69.4L6.4 9.48A10.81 10.81 0 0 0 1 18h22a10.81 10.81 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 1.25-1.25A1.25 1.25 0 0 1 7 15.25zm10 0a1.25 1.25 0 1 1 1.25-1.25A1.25 1.25 0 0 1 17 15.25z"/></svg></span>
+						</div>
+					</div>
+				</a>
+
+				<a class="app-card reveal reveal-delay-3" data-accent="amber" href="cardjo.html">
+					<div class="app-card-head">
+						<div class="app-card-logo"><img src="images/cardjo.png" alt="Cardjo logo" /></div>
+						<div class="app-card-title-wrap">
+							<h3>Cardjo</h3>
+							<span class="app-card-badge">Jeu mobile</span>
+						</div>
+					</div>
+					<p class="app-card-desc">
+						Un jeu de cartes addictif inspiré d'un classique. Mode solo, mode multi en
+						ligne, classement, skins.
+					</p>
+					<ul class="app-card-features">
+						<li>Multijoueur en ligne</li>
+						<li>Classement &amp; défis</li>
+						<li>Personnalisation skins</li>
+					</ul>
+					<div class="app-card-actions">
+						<span class="app-card-link">Découvrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+						<div class="app-card-meta">
+							<span class="platform" title="iOS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg></span>
+							<span class="platform" title="Android"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.48l1.84-3.18a.4.4 0 0 0-.69-.4l-1.86 3.22a11.36 11.36 0 0 0-9.78 0L5.25 5.9a.4.4 0 1 0-.69.4L6.4 9.48A10.81 10.81 0 0 0 1 18h22a10.81 10.81 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 1.25-1.25A1.25 1.25 0 0 1 7 15.25zm10 0a1.25 1.25 0 1 1 1.25-1.25A1.25 1.25 0 0 1 17 15.25z"/></svg></span>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- VISION / Next -->
+	<section class="section" id="vision">
+		<div class="container">
+			<div class="section-head reveal">
+				<span class="eyebrow">Vision</span>
+				<h2 class="h-section">La santé de demain est <span class="gradient-text">déjà dans votre poche</span>.</h2>
+				<p>
+					L'informatique a profondément transformé la santé : dossiers numériques, téléconsultation,
+					applications spécialisées. Avec l'IA, le mouvement ne fait que commencer.
+				</p>
+			</div>
+
+			<div class="next-grid">
+				<div class="feature-card reveal" data-accent="violet">
+					<div class="feature-icon">⚡</div>
+					<h3>Gagner du temps</h3>
+					<p>Accéder à votre dossier patient, vos calculs et vos fiches en quelques clics. Le smartphone devient un véritable outil de travail.</p>
+				</div>
+				<div class="feature-card reveal reveal-delay-1" data-accent="cyan">
+					<div class="feature-icon">🧠</div>
+					<h3>L'IA en renfort</h3>
+					<p>Diagnostics assistés, recommandations personnalisées, automatisation des tâches répétitives — l'IA libère du temps pour le soin.</p>
+				</div>
+				<div class="feature-card reveal reveal-delay-2" data-accent="pink">
+					<div class="feature-icon">📱</div>
+					<h3>Mobile-first</h3>
+					<p>Une appli pensée mobile est forcément plus pratique qu'un livre de 200 pages. La santé 2.0 ne fait que commencer.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CTA -->
+	<section class="section-sm">
+		<div class="container">
+			<div class="cta-banner reveal">
+				<span class="eyebrow">Prêt à essayer ?</span>
+				<h2 class="h-sub">Téléchargez les applications gratuitement sur iOS et Android.</h2>
+				<p>Toutes mes applications sont disponibles sur l'App Store et le Play Store.</p>
+				<div class="cta-stores">
+					<a class="btn-store" href="https://apps.apple.com/fr/developer/thomas-templier/id1697210339" target="_blank" rel="noopener">
+						<svg class="store-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+						<span class="store-text"><small>Télécharger sur</small><strong>App Store</strong></span>
+					</a>
+					<a class="btn-store" href="https://play.google.com/store/apps/dev?id=7050706482462377953&hl=fr_CA&gl=US" target="_blank" rel="noopener">
+						<svg class="store-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M3.1 1.32A2 2 0 0 0 3 2v20a2 2 0 0 0 .1.68L13.55 12 3.1 1.32zm11.86 11.39l3.4 3.42-12.4 7.07a1.97 1.97 0 0 1-.6-.13l9.6-10.36zm5.5-1.66l-3.8-2.17-3.97 4.12 3.97 4.12 3.8-2.17a2 2 0 0 0 0-3.9zM4.96.99c-.21.04-.42.11-.6.22L14.96 11.3l3.4-3.42L4.96.99z"/></svg>
+						<span class="store-text"><small>Disponible sur</small><strong>Google Play</strong></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-grid">
+				<div>
+					<div class="footer-brand">
+						<span class="footer-brand-dot"></span>
+						Deviade
+					</div>
+					<p>Applications mobiles pensées par un soignant, pour les soignants. Apprendre, calculer, jouer — tout cela dans la poche.</p>
+					<div class="footer-socials">
+						<a class="footer-social" href="https://github.com/Thomdev38" target="_blank" rel="noopener" aria-label="GitHub">
+							<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.96 10.96 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.63 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.09 0 4.42-2.69 5.4-5.25 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.79.56C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+						</a>
+						<a class="footer-social" href="https://www.youtube.com/@Deviade_thomas" target="_blank" rel="noopener" aria-label="YouTube">
+							<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1c.5-1.8.5-5.8.5-5.8s0-4-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
+						</a>
+						<a class="footer-social" href="https://www.facebook.com/AppDeviade" target="_blank" rel="noopener" aria-label="Facebook">
+							<svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46H15.2c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg>
+						</a>
+						<a class="footer-social" href="mailto:thomas.deviade@gmail.com" aria-label="Email">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+						</a>
+					</div>
+				</div>
+				<div class="footer-col">
+					<h4>Applications</h4>
+					<ul class="footer-links">
+						<li><a href="carnetiadeapp.html">Carnet IADE</a></li>
+						<li><a href="app.html">Salaire FPH</a></li>
+						<li><a href="pediaapp.html">Pedianesth</a></li>
+						<li><a href="cardjo.html">Cardjo</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Liens</h4>
+					<ul class="footer-links">
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="app.html">Toutes les apps</a></li>
+						<li><a href="https://apps.apple.com/fr/developer/thomas-templier/id1697210339" target="_blank" rel="noopener">App Store</a></li>
+						<li><a href="https://play.google.com/store/apps/dev?id=7050706482462377953&hl=fr_CA&gl=US" target="_blank" rel="noopener">Play Store</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<span>&copy; <span class="js-year">2025</span> Deviade · Thomas Templier · Tous droits réservés</span>
+				<span>Made with ☕ &amp; Flutter en France</span>
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/modern.js"></script>
+</body>
 </html>
