@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.deviade.fr/</loc>
+		<loc>https://thomdev38.github.io/deviade/</loc>
 		<lastmod>2026-06-03</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>https://www.deviade.fr/app.html</loc>
+		<loc>https://thomdev38.github.io/deviade/app.html</loc>
 		<lastmod>2026-06-03</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.9</priority>
 	</url>
 	<url>
-		<loc>https://www.deviade.fr/rotafy.html</loc>
+		<loc>https://thomdev38.github.io/deviade/rotafy.html</loc>
 		<lastmod>2026-06-03</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.9</priority>
 	</url>
 	<url>
-		<loc>https://www.deviade.fr/carnetiadeapp.html</loc>
+		<loc>https://thomdev38.github.io/deviade/carnetiadeapp.html</loc>
 		<lastmod>2026-06-03</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.deviade.fr/pediaapp.html</loc>
+		<loc>https://thomdev38.github.io/deviade/pediaapp.html</loc>
 		<lastmod>2026-06-03</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>https://www.deviade.fr/cardjo.html</loc>
+		<loc>https://thomdev38.github.io/deviade/cardjo.html</loc>
 		<lastmod>2026-06-03</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc>https://www.deviade.fr/carnetiadeprivacy.html</loc>
+		<loc>https://thomdev38.github.io/deviade/carnetiadeprivacy.html</loc>
 		<changefreq>yearly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://www.deviade.fr/pedianesth.html</loc>
+		<loc>https://thomdev38.github.io/deviade/pedianesth.html</loc>
 		<changefreq>yearly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://www.deviade.fr/salairefphprivacy.html</loc>
+		<loc>https://thomdev38.github.io/deviade/salairefphprivacy.html</loc>
 		<changefreq>yearly</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>https://www.deviade.fr/cardjo_privacy.html</loc>
+		<loc>https://thomdev38.github.io/deviade/cardjo_privacy.html</loc>
 		<changefreq>yearly</changefreq>
 		<priority>0.2</priority>
 	</url>
